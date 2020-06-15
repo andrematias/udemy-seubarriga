@@ -1,0 +1,28 @@
+{
+  "name": "seubarriga",
+  "version": "1.0.0",
+  "description": "Aprendendo node js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "lint": "eslint src/** test/** --fix",
+    "secure-mode": "jest --watch"
+  },
+  "author": "André Matias",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "jest": "26.0.1",
+    "supertest": "4.0.2"
+  },
+  "dependencies": {
+    "express": "4.16.4"
+  }
+}
